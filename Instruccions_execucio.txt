@@ -1,0 +1,28 @@
+Per executar el programa que implementa els algorismes descrits a la documentació 
+has de seguir les següents instruccions:
+
+1-Compilar els fitxers utilitzant el Makefile. > make
+2-Introduir els paràmetres al fitxer input.txt amb el dormat següent:
+      
+      Model de graf : (0)graella  (1)geometric
+      Mida del graf : n
+      //si has escollit el geometric// Valor de r
+      Tipus perculació: (0)vèrtexs  (1)arestes
+      Valor de q inicial: q
+      Número iteracions
+      
+      Per exemple)
+          
+          0
+          50
+          0
+          0.4
+          100
+          
+          Estaràs fent l'experiment per a un graf graella de mida 50x50 amb 
+          percolació per vèrtexs amb q = 0.4 inicial i amb 100 grafs diferents.
+          
+3-Executa > ./main
+          
+4-Consultar els resultats (probabilitats de transició de fase) al fitxer output.txt.
+      
